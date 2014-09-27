@@ -4,6 +4,7 @@
 #include <vector>
 #include <arena.h>
 void Arena :: drawArena(RenderWindow &window) {
+    //first commit
    for (int i = 0; i < amountHeight; i++) {
        for (int j = 0; j < amountWidth; j++) {
            if (TileMap[i][j] == 'P') sprite.setTextureRect(IntRect(0, 110, 55, 55));
