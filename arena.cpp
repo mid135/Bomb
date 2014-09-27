@@ -7,6 +7,7 @@ void Arena :: drawArena(RenderWindow &window) {
     //first commit
    for (int i = 0; i < amountHeight; i++) {
        for (int j = 0; j < amountWidth; j++) {
+           //fitst comment !!!!
            if (TileMap[i][j] == 'P') sprite.setTextureRect(IntRect(0, 110, 55, 55));
            if (TileMap[i][j] == 'K' || TileMap[i][j] == 'c' || TileMap[i][j] == 'v') sprite.setTextureRect(IntRect(58, 110, 55, 55));
            if (TileMap[i][j] == 'C') sprite.setTextureRect(IntRect(58, 170, 55, 55));
